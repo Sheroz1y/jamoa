@@ -1,0 +1,126 @@
+/* ---------------------------------FOOTER--------------------------------- */
+footer {
+      background-color: #0a2239;
+      color: #ffffff;
+      padding: 40px 0;
+}
+
+
+.footer-container {
+      display: flex;
+      justify-content: space-around;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+}
+
+.footer-container div {
+      flex: 1;
+      padding: 0 20px;
+}
+
+.contact-us p {
+      display: flex;
+      align-items: center;
+      margin: 20px 0;
+}
+
+.contact-us span {
+      margin-right: 25px;
+}
+
+.contact-us p a{
+      color: white;
+      text-decoration: none;
+}
+
+h3 {
+      font-size: 18px;
+      margin-bottom: 20px;
+}
+
+p,
+ul {
+      font-size: 14px;
+      line-height: 1.6;
+}
+
+ul {
+      list-style-type: none;
+      padding: 0;
+}
+
+ul li a {
+      color: #ffffff;
+      text-decoration: none;
+      display: block;
+      margin-bottom: 10px;
+}
+
+ul li a:hover {
+      text-decoration: underline;
+}
+
+.social-icons a {
+      margin-right: 10px;
+}
+
+.social-icons img {
+      width: 20px;
+      height: 20px;
+}
+
+.footer-bottom {
+      text-align: center;
+      margin-top: 40px;
+      padding-top: 20px;
+}
+
+.footer-bottom a {
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 20px;
+}
+
+.footer-bottom a:hover {
+      color: #00b0ff;
+}
+
+.data {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      
+}
+
+.cvc {
+      display: flex;
+      align-items: center;
+      gap: 73px;
+}
+.footer-bottom hr{
+      margin-bottom: 20px; 
+      border: none;
+      border-top: 1px solid gray; 
+}
+.footer-bottom a svg:hover{
+      border: 1px solid white;
+      border-radius: 50% 50%;
+      transition: all 0.8s;
+}
+
+/* -----------------------section card---------------------------------- */
+
+.halimjon__cards{
+      display: flex;
+      align-items: baseline;
+      gap: 15px;
+}
+
+.halimjon__card{
+      width: 260px;
+}
+
+
+  
